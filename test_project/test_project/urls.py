@@ -23,6 +23,6 @@ import testapp3
 
 urlpatterns = [
     path('testapp1/', include('testapp1.urls')),
-    path('', include('testapp3.urls')),
+    path('testapp3/', include('testapp3.urls')),
     path('admin/', admin.site.urls),
 ]
